@@ -2,7 +2,7 @@
     "loader_kwargs": {
         "instruction_template": "Instruct: {instruction}\nQuery: ",
         "model_kwargs": {
-            "torch_dtype": "torch.bfloat16"
+            "dtype": "torch.float16"
         },
         "apply_instruction_to_passages": false
     },
@@ -132,29 +132,29 @@
     "similarity_fn_name": "cosine",
     "use_instructions": true,
     "training_datasets": [
-        "NQ",
-        "MSMARCO",
-        "HotpotQA-PL",
-        "FEVER-PL",
-        "MSMARCOHardNegatives",
         "NQ-NL",
-        "MIRACLRetrievalHardNegatives",
-        "FEVER",
-        "FEVERHardNegatives",
+        "MSMARCO",
+        "MSMARCO-PL",
         "NanoMSMARCORetrieval",
         "NQ-PL",
         "FEVER-NL",
-        "MSMARCO-PL",
-        "MrTidyRetrieval",
-        "NQHardNegatives",
         "HotpotQA-NL",
-        "HotpotQA",
-        "HotpotQAHardNegatives",
+        "FEVERHardNegatives",
+        "FEVER",
+        "NanoNQRetrieval",
         "XQuADRetrieval",
         "MIRACLRetrieval",
+        "MrTidyRetrieval",
         "MIRACLReranking",
-        "NanoNQRetrieval",
-        "mMARCO-NL"
+        "NQ",
+        "FEVER-PL",
+        "MIRACLRetrievalHardNegatives",
+        "HotpotQA",
+        "NQHardNegatives",
+        "HotpotQA-PL",
+        "mMARCO-NL",
+        "MSMARCOHardNegatives",
+        "HotpotQAHardNegatives"
     ],
     "adapted_from": "FacebookAI/xlm-roberta-large",
     "superseded_by": null,
