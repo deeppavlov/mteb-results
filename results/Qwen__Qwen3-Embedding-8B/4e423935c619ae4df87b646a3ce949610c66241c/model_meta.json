@@ -1,9 +1,5 @@
 {
-    "loader_kwargs": {
-        "processor_kwargs": {
-            "model_max_length": 8192
-        }
-    },
+    "loader_kwargs": {},
     "name": "Qwen/Qwen3-Embedding-8B",
     "revision": "4e423935c619ae4df87b646a3ce949610c66241c",
     "release_date": "2025-06-05",
@@ -102,17 +98,17 @@
     "similarity_fn_name": "cosine",
     "use_instructions": true,
     "training_datasets": [
-        "MMarcoReranking",
-        "CMedQAv2-reranking",
-        "FEVER",
-        "NQ",
-        "MIRACLRetrieval",
-        "MrTidyRetrieval",
-        "HotpotQA",
         "CodeSearchNet",
+        "CMedQAv2-reranking",
+        "HotpotQA",
+        "MIRACLRetrieval",
         "MSMARCO",
+        "NQ",
+        "MMarcoReranking",
+        "FEVER",
+        "DuRetrieval",
         "T2Retrieval",
-        "DuRetrieval"
+        "MrTidyRetrieval"
     ],
     "adapted_from": null,
     "superseded_by": null,
