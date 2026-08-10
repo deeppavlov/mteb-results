@@ -1,0 +1,146 @@
+{
+  "dataset_revision": "main",
+  "task_name": "MultilingualQRECC",
+  "mteb_version": "2.1.7",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.999939,
+        "similarity_f1": 0.99997,
+        "similarity_precision": 1.0,
+        "similarity_recall": 0.999939,
+        "similarity_ap": 1.0,
+        "cosine_accuracy": 0.999939,
+        "cosine_f1": 0.99997,
+        "cosine_precision": 1.0,
+        "cosine_recall": 0.999939,
+        "cosine_ap": 1.0,
+        "manhattan_accuracy": 0.999939,
+        "manhattan_f1": 0.99997,
+        "manhattan_precision": 1.0,
+        "manhattan_recall": 0.999939,
+        "manhattan_ap": 1.0,
+        "euclidean_accuracy": 0.999939,
+        "euclidean_f1": 0.99997,
+        "euclidean_precision": 1.0,
+        "euclidean_recall": 0.999939,
+        "euclidean_ap": 1.0,
+        "dot_accuracy": 0.999939,
+        "dot_f1": 0.99997,
+        "dot_precision": 1.0,
+        "dot_recall": 0.999939,
+        "dot_ap": 1.0,
+        "max_accuracy": 0.999939,
+        "max_f1": 0.99997,
+        "max_precision": 1.0,
+        "max_recall": 0.999939,
+        "max_ap": 1.0,
+        "main_score": 1.0,
+        "hf_subset": "es-gemma",
+        "languages": [
+          "spa-Latn"
+        ],
+        "mteb_version": "2.1.7"
+      },
+      {
+        "similarity_accuracy": 0.999939,
+        "similarity_f1": 0.99997,
+        "similarity_precision": 1.0,
+        "similarity_recall": 0.999939,
+        "similarity_ap": 1.0,
+        "cosine_accuracy": 0.999939,
+        "cosine_f1": 0.99997,
+        "cosine_precision": 1.0,
+        "cosine_recall": 0.999939,
+        "cosine_ap": 1.0,
+        "manhattan_accuracy": 0.999939,
+        "manhattan_f1": 0.99997,
+        "manhattan_precision": 1.0,
+        "manhattan_recall": 0.999939,
+        "manhattan_ap": 1.0,
+        "euclidean_accuracy": 0.999939,
+        "euclidean_f1": 0.99997,
+        "euclidean_precision": 1.0,
+        "euclidean_recall": 0.999939,
+        "euclidean_ap": 1.0,
+        "dot_accuracy": 0.999939,
+        "dot_f1": 0.99997,
+        "dot_precision": 1.0,
+        "dot_recall": 0.999939,
+        "dot_ap": 1.0,
+        "max_accuracy": 0.999939,
+        "max_f1": 0.99997,
+        "max_precision": 1.0,
+        "max_recall": 0.999939,
+        "max_ap": 1.0,
+        "main_score": 1.0,
+        "hf_subset": "fr-gemma",
+        "languages": [
+          "fra-Latn"
+        ],
+        "mteb_version": "2.1.7"
+      }
+    ]
+  },
+  "evaluation_time": 184.71780110301916,
+  "kg_co2_emissions": null,
+  "date": 1786280589.932246,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 5.716807208955288e-05,
+      "end": 19.427862259093672,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 19.427886886056513,
+      "end": 50.998005105997436,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 51.001565342070535,
+      "end": 97.858853362035,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 97.85903167701326,
+      "end": 116.07837951101828,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Scoring",
+      "start": 116.07851830101572,
+      "end": 116.37780252704397,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 117.20037220406812,
+      "end": 164.7312745100353,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 164.73142368509434,
+      "end": 183.46667746501043,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Scoring",
+      "start": 183.46681102504954,
+      "end": 184.31636401603464,
+      "split": "test",
+      "subset": "fr-gemma"
+    }
+  ]
+}

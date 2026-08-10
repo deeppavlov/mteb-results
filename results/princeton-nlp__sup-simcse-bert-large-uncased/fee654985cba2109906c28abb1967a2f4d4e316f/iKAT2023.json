@@ -1,7 +1,7 @@
 {
   "dataset_revision": "7cd389464922c22a68f42b81dd034a5583203db7",
   "task_name": "iKAT2023",
-  "mteb_version": "2.13.1",
+  "mteb_version": "2.1.7",
   "scores": {
     "test": [
       {
@@ -157,11 +157,42 @@
         "hf_subset": "default",
         "languages": [
           "eng-Latn"
-        ]
+        ],
+        "mteb_version": "2.1.7"
       }
     ]
   },
-  "evaluation_time": 8.920521974563599,
+  "evaluation_time": 47.46055479859933,
   "kg_co2_emissions": null,
-  "date": 1779548767.202957
+  "date": 1786290876.679964,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 8.920582466525957,
+      "end": 34.963846161495894,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 34.96385864855256,
+      "end": 34.96386091248132,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 34.97769813949708,
+      "end": 45.26630868157372,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 45.26652179553639,
+      "end": 47.158361675566994,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "dataset_revision": "449692c06b7d01d1d089037700c3dd495fb36278",
   "task_name": "QRECC",
-  "mteb_version": "2.13.1",
+  "mteb_version": "2.1.7",
   "scores": {
     "test": [
       {
@@ -39,11 +39,49 @@
         "hf_subset": "default",
         "languages": [
           "eng-Latn"
-        ]
+        ],
+        "mteb_version": "2.1.7"
       }
     ]
   },
-  "evaluation_time": 126.20171570777893,
+  "evaluation_time": 282.5728332847357,
   "kg_co2_emissions": null,
-  "date": 1779540450.357446
+  "date": 1786291689.040338,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 126.20177163777407,
+      "end": 134.8164182617329,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 134.81642736878712,
+      "end": 145.72852917574346,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding samples 1",
+      "start": 145.7306207898073,
+      "end": 258.7989181387238,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Encoding samples 2",
+      "start": 258.79904640477616,
+      "end": 281.9178267978132,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 281.91796359978616,
+      "end": 282.15923223877326,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "dataset_revision": "b4cc09fb8bb3a9e0ce0f94dc69c96397a2a47c18",
   "task_name": "TopiOCQAHardNegatives",
-  "mteb_version": "2.13.1",
+  "mteb_version": "2.1.7",
   "scores": {
     "validation": [
       {
@@ -157,11 +157,42 @@
         "hf_subset": "default",
         "languages": [
           "eng-Latn"
-        ]
+        ],
+        "mteb_version": "2.1.7"
       }
     ]
   },
-  "evaluation_time": 698.6091434955597,
+  "evaluation_time": 1354.3615060515003,
   "kg_co2_emissions": null,
-  "date": 1779549810.690715
+  "date": 1786292897.699648,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 698.6091980276396,
+      "end": 705.0601906556403,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 705.060210986645,
+      "end": 705.0602154436056,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 705.1487721266458,
+      "end": 1352.7814162175637,
+      "split": "validation",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 1352.7815426526358,
+      "end": 1354.3174595376477,
+      "split": "validation",
+      "subset": "default"
+    }
+  ]
 }
