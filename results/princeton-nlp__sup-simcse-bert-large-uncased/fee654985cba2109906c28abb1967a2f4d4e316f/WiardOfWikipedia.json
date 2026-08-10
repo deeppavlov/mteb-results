@@ -1,7 +1,7 @@
 {
   "dataset_revision": "a806e8f492e91cdcfe5a86ff6fa5cefaf2dcf11c",
   "task_name": "WiardOfWikipedia",
-  "mteb_version": "2.13.1",
+  "mteb_version": "2.1.7",
   "scores": {
     "test": [
       {
@@ -81,7 +81,7 @@
         "nauc_map_at_100_std": 0.204213,
         "nauc_map_at_100_diff1": 0.082247,
         "nauc_map_at_1000_max": 0.257407,
-        "nauc_map_at_1000_std": 0.206981,
+        "nauc_map_at_1000_std": 0.20698,
         "nauc_map_at_1000_diff1": 0.081655,
         "nauc_recall_at_1_max": 0.283445,
         "nauc_recall_at_1_std": 0.151065,
@@ -157,11 +157,42 @@
         "hf_subset": "default",
         "languages": [
           "eng-Latn"
-        ]
+        ],
+        "mteb_version": "2.1.7"
       }
     ]
   },
-  "evaluation_time": 272.3377788066864,
+  "evaluation_time": 588.9934412735747,
   "kg_co2_emissions": null,
-  "date": 1779549047.18828
+  "date": 1786293830.792849,
+  "evaluation_phases": [
+    {
+      "name": "Data loading",
+      "start": 272.3378404356772,
+      "end": 307.8679384366842,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 307.8679489956703,
+      "end": 307.8679507627385,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 308.3985450277105,
+      "end": 577.2700051837601,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 577.2703976457706,
+      "end": 588.851909353747,
+      "split": "test",
+      "subset": "default"
+    }
+  ]
 }
