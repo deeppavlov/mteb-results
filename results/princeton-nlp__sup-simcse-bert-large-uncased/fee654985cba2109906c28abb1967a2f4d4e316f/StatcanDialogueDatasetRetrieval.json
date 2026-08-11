@@ -632,7 +632,7 @@
       }
     ]
   },
-  "evaluation_time": 1002.5264743420994,
+  "evaluation_time": 1555.3865353770088,
   "kg_co2_emissions": null,
   "date": 1786292241.920481,
   "evaluation_phases": [
@@ -703,6 +703,76 @@
       "name": "Scoring",
       "start": 1002.3498992021196,
       "end": 1002.5021569951205,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Data loading",
+      "start": 1002.5265338000609,
+      "end": 1045.520331595093,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 1045.5203414520947,
+      "end": 1045.5203447360545,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 1045.5339799229987,
+      "end": 1163.223703939002,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 1163.223852166091,
+      "end": 1164.0966862339992,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 1164.1544873380335,
+      "end": 1296.4193736549933,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 1296.419504672056,
+      "end": 1296.583162080031,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 1296.6250400420977,
+      "end": 1423.3637650820892,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 1423.3638924690895,
+      "end": 1423.8918512010714,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 1423.9613260210026,
+      "end": 1555.2098275800236,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 1555.209960237029,
+      "end": 1555.36221803003,
       "split": "test",
       "subset": "french"
     }

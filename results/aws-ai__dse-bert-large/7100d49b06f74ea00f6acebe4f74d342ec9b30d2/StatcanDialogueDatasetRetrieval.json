@@ -632,7 +632,7 @@
       }
     ]
   },
-  "evaluation_time": 499.08616772608366,
+  "evaluation_time": 998.1723354521673,
   "kg_co2_emissions": null,
   "date": 1786347437.768999,
   "evaluation_phases": [
@@ -703,6 +703,76 @@
       "name": "Scoring",
       "start": 498.9140224090079,
       "end": 499.0636508470634,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Data loading",
+      "start": 499.08622550114524,
+      "end": 523.8935048881685,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 523.8935161700938,
+      "end": 523.8935180280823,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 523.906412725104,
+      "end": 640.0215651741019,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 640.0217264191015,
+      "end": 640.5558712041238,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 640.5937109420775,
+      "end": 760.9258757091593,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 760.9259863331681,
+      "end": 761.0962069081143,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 761.1387766271364,
+      "end": 877.4365878661629,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 877.4367251520744,
+      "end": 877.9691819541622,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 878.0033878801623,
+      "end": 998.0000755271176,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 998.0001901350915,
+      "end": 998.1498185731471,
       "split": "test",
       "subset": "french"
     }

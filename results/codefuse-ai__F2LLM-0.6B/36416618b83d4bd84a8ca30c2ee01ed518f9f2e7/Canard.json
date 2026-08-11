@@ -162,7 +162,7 @@
       }
     ]
   },
-  "evaluation_time": 37.68660866294522,
+  "evaluation_time": 75.37321732589044,
   "kg_co2_emissions": null,
   "date": 1786326553.306559,
   "evaluation_phases": [
@@ -191,6 +191,34 @@
       "name": "Scoring",
       "start": 34.28813591203652,
       "end": 37.59089108800981,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Data loading",
+      "start": 37.686660561012104,
+      "end": 61.096534471958876,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 61.096551803988405,
+      "end": 61.09655431902502,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 61.138524226960726,
+      "end": 71.97451019100845,
+      "split": "test",
+      "subset": "default"
+    },
+    {
+      "name": "Scoring",
+      "start": 71.97474457498174,
+      "end": 75.27749975095503,
       "split": "test",
       "subset": "default"
     }

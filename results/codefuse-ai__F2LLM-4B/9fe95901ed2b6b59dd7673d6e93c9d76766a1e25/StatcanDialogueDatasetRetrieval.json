@@ -632,7 +632,7 @@
       }
     ]
   },
-  "evaluation_time": 3573.97445458686,
+  "evaluation_time": 7147.94890917372,
   "kg_co2_emissions": null,
   "date": 1786359803.775881,
   "evaluation_phases": [
@@ -703,6 +703,76 @@
       "name": "Scoring",
       "start": 3573.803653699928,
       "end": 3573.9496438479982,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Data loading",
+      "start": 3573.9745076368563,
+      "end": 3596.2329199678497,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 3596.2329310898203,
+      "end": 3596.2329333238304,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 3596.2463641358772,
+      "end": 4414.044268478872,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 4414.0444803508,
+      "end": 4414.580310611869,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 4414.619681812823,
+      "end": 5372.407851352822,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 5372.4080402108375,
+      "end": 5372.568927615881,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 5372.605534673785,
+      "end": 6191.386899263831,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 6191.387099232874,
+      "end": 6191.950732594822,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 6191.995788862812,
+      "end": 7147.777918857872,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 7147.778108286788,
+      "end": 7147.924098434858,
       "split": "test",
       "subset": "french"
     }

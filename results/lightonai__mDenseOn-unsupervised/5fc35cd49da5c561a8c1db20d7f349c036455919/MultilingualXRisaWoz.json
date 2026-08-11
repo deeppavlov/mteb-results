@@ -135,7 +135,7 @@
       }
     ]
   },
-  "evaluation_time": 64.35617385001387,
+  "evaluation_time": 128.71234770002775,
   "kg_co2_emissions": null,
   "date": 1786361041.224556,
   "evaluation_phases": [
@@ -241,6 +241,111 @@
       "name": "Scoring",
       "start": 21.91812063299585,
       "end": 64.32649362506345,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Data loading",
+      "start": 64.35629561101086,
+      "end": 67.8096854010364,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 67.80971567798406,
+      "end": 68.14237958402373,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 68.79253204900306,
+      "end": 70.11442669399548,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Encoding test samples",
+      "start": 71.31322858703788,
+      "end": 86.27361704001669,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 86.27563655399717,
+      "end": 90.49752010207158,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 90.4985263380222,
+      "end": 94.67662990104873,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 94.67721926700324,
+      "end": 98.95808826002758,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 98.95872608805075,
+      "end": 103.2675335900858,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 103.2682353790151,
+      "end": 107.55549125000834,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (5/10)",
+      "start": 107.55603897804394,
+      "end": 111.86168889398687,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (6/10)",
+      "start": 111.8621707559796,
+      "end": 116.11989193200134,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (7/10)",
+      "start": 116.12031354999635,
+      "end": 120.2863592300564,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (8/10)",
+      "start": 120.28678590804338,
+      "end": 124.47495336306747,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Running experiment (9/10)",
+      "start": 124.47537886898499,
+      "end": 128.6826572950231,
+      "split": "test",
+      "subset": "es-gemma-en"
+    },
+    {
+      "name": "Scoring",
+      "start": 86.27429448300973,
+      "end": 128.68266747507732,
       "split": "test",
       "subset": "es-gemma-en"
     }

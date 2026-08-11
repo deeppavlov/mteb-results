@@ -632,7 +632,7 @@
       }
     ]
   },
-  "evaluation_time": 1571.4216715008952,
+  "evaluation_time": 3142.8433430017903,
   "kg_co2_emissions": null,
   "date": 1786340948.416626,
   "evaluation_phases": [
@@ -703,6 +703,76 @@
       "name": "Scoring",
       "start": 1571.2460151959676,
       "end": 1571.390745562967,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Data loading",
+      "start": 1571.4217290498782,
+      "end": 1594.5607820708537,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 1594.5607975499006,
+      "end": 1594.5608008969575,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 1594.572071915958,
+      "end": 1951.125154261943,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 1951.125348429894,
+      "end": 1951.6586523449514,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 1951.7048060919624,
+      "end": 2368.369785144925,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 2368.3699956838973,
+      "end": 2368.990207041963,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 2369.026814076933,
+      "end": 2726.365706654964,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 2726.3659403278725,
+      "end": 2726.9244229549076,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 2726.9681310988963,
+      "end": 3142.667489703861,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 3142.667686696863,
+      "end": 3142.812417063862,
       "split": "test",
       "subset": "french"
     }

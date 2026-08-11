@@ -264,7 +264,7 @@
       }
     ]
   },
-  "evaluation_time": 364.55449759797193,
+  "evaluation_time": 729.1089951959439,
   "kg_co2_emissions": null,
   "date": 1786338733.119751,
   "evaluation_phases": [
@@ -461,6 +461,202 @@
       "name": "Scoring",
       "start": 290.0661250819685,
       "end": 364.52122364996467,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Data loading",
+      "start": 364.55454930092674,
+      "end": 367.7154707229929,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 367.71548059990164,
+      "end": 367.75113878096454,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 391.1781533670146,
+      "end": 397.7766270790016,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Encoding test samples",
+      "start": 401.6176565269707,
+      "end": 476.34185406996403,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 476.3427126959432,
+      "end": 483.79007969400845,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 483.7905155629851,
+      "end": 491.2102935289731,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 491.2106791830156,
+      "end": 498.5720981969498,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 498.5725513859652,
+      "end": 506.0278448458994,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 506.02824997890275,
+      "end": 513.39111021196,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (5/10)",
+      "start": 513.3914933169726,
+      "end": 520.8418721649796,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (6/10)",
+      "start": 520.8422617109027,
+      "end": 528.2010377479019,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (7/10)",
+      "start": 528.2014047909761,
+      "end": 535.6247416929109,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (8/10)",
+      "start": 535.6250869049691,
+      "end": 542.9046485909494,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Running experiment (9/10)",
+      "start": 542.9049950669287,
+      "end": 549.418815477984,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Scoring",
+      "start": 476.3421577749541,
+      "end": 549.4188241719967,
+      "split": "test",
+      "subset": "es-gemma"
+    },
+    {
+      "name": "Encoding training samples",
+      "start": 573.0718811129918,
+      "end": 579.3589670099318,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Encoding test samples",
+      "start": 583.1765509429388,
+      "end": 654.6203639239538,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (0/10)",
+      "start": 654.621097472962,
+      "end": 661.7391243289458,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (1/10)",
+      "start": 661.7395452029305,
+      "end": 668.883694015909,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (2/10)",
+      "start": 668.8840858949115,
+      "end": 676.2053438069997,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (3/10)",
+      "start": 676.2057338879677,
+      "end": 683.5635201520054,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (4/10)",
+      "start": 683.5639310999541,
+      "end": 690.8909333629999,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (5/10)",
+      "start": 690.8912987529766,
+      "end": 698.2987225179095,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (6/10)",
+      "start": 698.2992642889731,
+      "end": 705.604053048999,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (7/10)",
+      "start": 705.6044718410121,
+      "end": 712.8839363489533,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (8/10)",
+      "start": 712.8843531339662,
+      "end": 719.5862676689867,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Running experiment (9/10)",
+      "start": 719.5866382659879,
+      "end": 729.0757143519586,
+      "split": "test",
+      "subset": "fr-gemma"
+    },
+    {
+      "name": "Scoring",
+      "start": 654.6206226799404,
+      "end": 729.0757212479366,
       "split": "test",
       "subset": "fr-gemma"
     }

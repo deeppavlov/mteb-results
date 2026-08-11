@@ -632,7 +632,7 @@
       }
     ]
   },
-  "evaluation_time": 497.5952662610216,
+  "evaluation_time": 995.1905325220432,
   "kg_co2_emissions": null,
   "date": 1786336798.270093,
   "evaluation_phases": [
@@ -703,6 +703,76 @@
       "name": "Scoring",
       "start": 497.4457043609582,
       "end": 497.56960878300015,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Data loading",
+      "start": 497.5953155410243,
+      "end": 520.481553990976,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 520.4815661220346,
+      "end": 520.4815690109972,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 520.492703180993,
+      "end": 636.6234779540682,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 636.6237287450349,
+      "end": 637.0765106349718,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 637.1206210000673,
+      "end": 757.305631330004,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 757.3058468410745,
+      "end": 757.4373855610611,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 757.4772524610162,
+      "end": 874.4156567669706,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 874.415844107978,
+      "end": 874.9041611519642,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 874.9483476160094,
+      "end": 995.0407981920289,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 995.0409706219798,
+      "end": 995.1648750440218,
       "split": "test",
       "subset": "french"
     }

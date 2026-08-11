@@ -632,7 +632,7 @@
       }
     ]
   },
-  "evaluation_time": 195.72402308299206,
+  "evaluation_time": 391.4480461659841,
   "kg_co2_emissions": null,
   "date": 1786367161.944434,
   "evaluation_phases": [
@@ -703,6 +703,76 @@
       "name": "Scoring",
       "start": 195.55223745608237,
       "end": 195.70184029603843,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Data loading",
+      "start": 195.7240844781045,
+      "end": 218.88973556109704,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 218.889746090048,
+      "end": 218.88974842405878,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 218.90246539202053,
+      "end": 261.01087450399064,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 261.01101721508894,
+      "end": 261.6339359720005,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 261.66332036000676,
+      "end": 305.30837860901374,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 305.30853090109304,
+      "end": 305.46858332003467,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 305.5078272080282,
+      "end": 347.1856915660901,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 347.1858272179961,
+      "end": 347.7214640050661,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 347.7538711450761,
+      "end": 391.27614841610193,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 391.2762605390744,
+      "end": 391.4258633790305,
       "split": "test",
       "subset": "french"
     }

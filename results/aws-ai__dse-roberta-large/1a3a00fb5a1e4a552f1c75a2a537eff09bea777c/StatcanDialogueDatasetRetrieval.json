@@ -632,7 +632,7 @@
       }
     ]
   },
-  "evaluation_time": 509.86006264202297,
+  "evaluation_time": 1019.7201252840459,
   "kg_co2_emissions": null,
   "date": 1786323652.975572,
   "evaluation_phases": [
@@ -703,6 +703,76 @@
       "name": "Scoring",
       "start": 509.65541260608006,
       "end": 509.8391978680156,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Data loading",
+      "start": 509.86011937307194,
+      "end": 534.0718086650595,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Dataset transform",
+      "start": 534.0718182270648,
+      "end": 534.0718206140446,
+      "split": "",
+      "subset": ""
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 534.0905490810983,
+      "end": 652.8248446331127,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 652.824997719028,
+      "end": 653.3411362920888,
+      "split": "dev",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 653.385143741034,
+      "end": 776.393126953044,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 776.3932332861004,
+      "end": 776.5540985240368,
+      "split": "dev",
+      "subset": "french"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 776.5943241320783,
+      "end": 896.1229577950435,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Scoring",
+      "start": 896.1231016120873,
+      "end": 896.6621268810704,
+      "split": "test",
+      "subset": "english"
+    },
+    {
+      "name": "Encoding queries and documents",
+      "start": 896.702509741066,
+      "end": 1019.5153728440637,
+      "split": "test",
+      "subset": "french"
+    },
+    {
+      "name": "Scoring",
+      "start": 1019.515475248103,
+      "end": 1019.6992605100386,
       "split": "test",
       "subset": "french"
     }
