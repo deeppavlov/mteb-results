@@ -1,5 +1,7 @@
 {
-    "loader_kwargs": {},
+    "loader_kwargs": {
+        "device": "cpu"
+    },
     "name": "minishlab/potion-base-2M",
     "revision": "389b9f64be5aa4ae7a6bc6fe95ef20ce485ae5da",
     "release_date": "2024-10-29",
@@ -26,11 +28,11 @@
     "similarity_fn_name": "cosine",
     "use_instructions": false,
     "training_datasets": [
-        "NQHardNegatives",
-        "NQ-NL",
         "DuRetrieval",
-        "MLQARetrieval",
         "NQ",
+        "NQHardNegatives",
+        "MLQARetrieval",
+        "NQ-NL",
         "AmazonReviewsClassification"
     ],
     "adapted_from": "BAAI/bge-base-en-v1.5",
